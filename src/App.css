@@ -1,0 +1,101 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+
+
+
+
+}
+
+
+
+.header {
+  height: 350px;
+  background-color: #254665;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  align-items: center
+}
+
+.comment {
+  flex: 2.5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.profile {
+  flex: 1.5;
+
+
+  align-items: center;
+  justify-items: center
+}
+
+.skill-name {
+  color: #fff;
+  width: 150px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 5px
+}
+
+.skll-container {
+  margin-top: 20
+}
+
+.skill-bar-wrap {
+  height: 17px;
+  width: 180px;
+  background: #fff;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.skill-bar {
+  height: 17px;
+  background: #e9a820;
+  -webkit-border-radius: 20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
+}
+
+.container {
+  background-color: '#eee';
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+
+}
+
+.cards {
+  width: 1190px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
